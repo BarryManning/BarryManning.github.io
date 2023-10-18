@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(16, 17, 19);
+}
+
+#pageHeader {
+    height: 200px;
+}
+
+#pageHeader img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
