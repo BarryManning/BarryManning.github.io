@@ -1,5 +1,9 @@
 /* Fonts
+base font
 font-family: 'Abel', sans-serif;
+
+headerfont
+
 */
 
 body {
@@ -14,6 +18,14 @@ body p{
     font-family: 'Abel', sans-serif;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 #pageTrack {
     height: 100%;
     width: 85%;
@@ -24,7 +36,7 @@ body p{
 }
 
 .bubbleContent {
-    margin: 20px;
+    margin: 10px;
 }
 
 .material-symbols-outlined {
@@ -37,7 +49,6 @@ body p{
     width: 100%;
     background-color: rgb(59, 159, 221);
     border-radius: 15px;
-    margin-top: 10px;
 }
 
 #pageHeader {
@@ -79,23 +90,79 @@ body p{
     color:rgb(59, 159, 221);
 }
 
-#sectionOne {
+/* TECH SECTION */
+
+#sectionTech {
     display: flex;
     flex-direction: row;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
 }
 
-#panelOne {
+#techOne {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     border-radius: 15px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#techOne > * {
+    margin: 10px;
+}
+
+#techOne span{
+    color: black;
+    font-size: 50px;
+}
+
+#techOne p {
+    font-size: 40px;
+}
+
+#techTwo {
+    background-color: rgb(31, 33, 35);
+    color: white;
+    border-radius: 15px;
     padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 3;
+}
+
+/* SECTION TWO */
+
+#sectionTwo {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+#panelOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 33, 35);
+    border-radius: 15px;
+    text-align: center;
+    flex-grow: 3;
+    color: white;
     margin-right: 20px;
 }
 
 #panelTwo {
-    background-color: rgb(31, 33, 35);
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
     border-radius: 15px;
     text-align: center;
-    padding: 5px;
+    flex-grow: 1;
 }
+
+
