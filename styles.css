@@ -1,7 +1,8 @@
 /* Fonts
 base font
 font-family: 'Abel', sans-serif;
-
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Concert One', sans-serif;
 headerfont
 
 */
@@ -36,7 +37,7 @@ body p{
 }
 
 .bubbleContent {
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .material-symbols-outlined {
@@ -49,6 +50,7 @@ body p{
     width: 100%;
     background-color: rgb(59, 159, 221);
     border-radius: 15px;
+    margin-top: 10px;
 }
 
 #pageHeader {
@@ -82,12 +84,60 @@ body p{
 #toolBar p {
     margin: 10px;
     color: white;
+    font-family: 'Concert One', sans-serif;
 }
 
 #toolBar p:hover {
-    transition: 0.4s;
+    transition: 0.2s;
     scale: 1.1;
     color:rgb(59, 159, 221);
+}
+
+/* BIO SECTION */
+
+#sectionBio {
+    flex-direction: row;
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(31, 33, 35);
+    border-radius: 15px;
+    margin-right: 20px;
+    color: white;
+    flex-grow: 3;
+    height: 100%;
+    width: 70%;
+}
+
+#bio p{
+    font-size: 25px;
+    padding: 50px;
+}
+
+#bioHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    flex-grow: 1;
+    width: 30%;
+    height: 100%;
+}
+
+#bioHeader h1 {
+    font-size: 60px;
 }
 
 /* TECH SECTION */
@@ -109,19 +159,16 @@ body p{
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    margin-right: 20px;
 }
 
 #techOne > * {
     margin: 10px;
 }
 
-#techOne span{
-    color: black;
+#techOne h1 {
     font-size: 50px;
-}
-
-#techOne p {
-    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 #techTwo {
@@ -133,6 +180,21 @@ body p{
     flex-direction: row;
     justify-content: space-around;
     flex-grow: 3;
+}
+
+/* PROJECTS SECTION */
+
+#projectsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(59, 159, 221);
+    height: 180px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
 }
 
 /* SECTION TWO */
@@ -163,6 +225,15 @@ body p{
     border-radius: 15px;
     text-align: center;
     flex-grow: 1;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 20px;
+    color: white;
 }
 
 
